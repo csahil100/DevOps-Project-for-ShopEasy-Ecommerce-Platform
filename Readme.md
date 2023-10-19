@@ -1,3 +1,75 @@
+---
+
+**Project Title**: Deployment of E-commerce Backend Microservices on AWS with CI/CD Automation
+
+**Objective**: Develop and deploy a cloud-native backend for "ShopEasy," an e-commerce website, using microservices on AWS, complete with CI/CD automation for streamlined operations.
+
+**Use Cases**:
+1. User registration and authentication.
+2. Browsing products by category.
+3. Adding/removing products to/from the cart.
+4. Processing user orders and payments.
+5. Handling customer feedback and ratings.
+
+**Project Overview**:
+
+**Microservices Design**:
+- Develop microservices in Python to handle user management, product catalog, cart operations, order processing, and feedback collection.
+
+**Containerization**:
+- Dockerize each service.
+- Deploy using ECS with Fargate for scalability.
+
+**Serverless Components**:
+- Use Lambda for automated customer notifications.
+- API Gateway for managing access to each service.
+- Store product data, user data, and orders in DynamoDB. Use Kinesis Data Stream for real-time inventory updates, SNS for notifications, and SQS for processing user feedback.
+
+**Cloud Automation**:
+- Utilize Terraform for resource provisioning on AWS.
+- Employ CloudFormation/CDK for AWS service orchestration.
+
+**CI/CD Pipeline**:
+- Integrate Bitbucket for source code versioning.
+- Design CI/CD using Jenkins, integrated with Jira for task management and Confluence for project documentation.
+- Ansible for automating server configuration and app deployment.
+
+**Monitoring & Management**:
+- AWS CloudWatch for real-time monitoring and performance tracking.
+- Implement DR strategies using AWS Backup and S3's versioning features.
+
+**Milestones**:
+
+1. **Design & Development**:
+   - Define service functionalities based on "ShopEasy's" requirements.
+   - Develop services and database schema.
+   
+2. **Containerization & Serverless Setup**:
+   - Dockerize services.
+   - Configure Lambda, API Gateway, and related serverless components.
+
+3. **Infrastructure Automation**:
+   - Craft Terraform and CloudFormation scripts.
+
+4. **CI/CD Integration**:
+   - Initiate Bitbucket repositories.
+   - Implement CI/CD with Jenkins. Integrate Ansible, Jira, and Confluence.
+
+5. **Deployment**:
+   - Launch microservices on AWS.
+
+6. **Monitoring & Optimization**:
+   - Set up AWS CloudWatch and analyze metrics. Refine services accordingly.
+
+7. **Documentation & Handover**:
+   - Document the setup in Confluence.
+   - Conduct team training on service management.
+
+---
+
+This approach models the backend development for an e-commerce site like "ShopEasy" through a DevOps lens, integrating real-world use cases with the technologies and services you provided.
+
+---
 **Microservices Design**
 
 1. **Modularity & Domain-Driven Design**: By aligning each microservice with a distinct business capability (e.g., user management, product catalog, order processing), we followed a domain-driven design. This approach ensures that each service is modular and can be developed, deployed, and scaled independently. 
