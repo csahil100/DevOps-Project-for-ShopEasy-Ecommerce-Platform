@@ -12,6 +12,8 @@
 
 6. **Easier Debugging & Monitoring**: With smaller, focused services, pinpointing errors, and debugging becomes more straightforward. It's easier to monitor specific metrics relevant to a service, optimizing performance and user experience.
 
+---
+
  **Containerization**
  
 Using Docker for containerizing each service and deploying them with Amazon ECS (Elastic Container Service) coupled with Fargate offers several advantages for "ShopEasy":
@@ -31,6 +33,8 @@ Using Docker for containerizing each service and deploying them with Amazon ECS 
 5. **Deployment & Rollbacks**: With Docker and ECS, deploying new versions or rolling back to previous versions becomes streamlined. In case of any issues with a new release, "ShopEasy" can quickly revert to a stable version, ensuring uninterrupted service to its customers.
 
 In summary, the combination of Docker for containerization and Amazon ECS with Fargate offers "ShopEasy" a resilient, scalable, and efficient way to deploy and manage its microservices. It aligns well with the dynamic needs of an e-commerce platform, ensuring optimal performance, security, and cost-effectiveness.
+
+---
 
 **Serverless Components** 
 
@@ -59,6 +63,8 @@ The adoption of serverless components for "ShopEasy" stemmed from a desire to ac
    - **Decoupling Components**: SQS allowed different components of "ShopEasy" to operate independently, ensuring that a failure in one component doesn't cascade through the system.
 
 Incorporating these serverless components enabled "ShopEasy" to build a robust, scalable, and cost-effective e-commerce backend. The inherent advantages of serverless — such as automatic scaling, no infrastructure management, and a pay-as-you-go pricing model — were perfectly aligned with the dynamic and customer-centric nature of the e-commerce domain.
+
+---
 
 **Cloud Automation** 
 
@@ -89,6 +95,8 @@ Here's how Terraform and CloudFormation/CDK fit into our strategy:
 - **Stack Management**: CloudFormation organizes resources into stacks. This allowed us to group related resources together, making management, updates, and deletions systematic and traceable.
 
 In essence, the combination of Terraform and CloudFormation/CDK provided "ShopEasy" with a comprehensive cloud automation strategy. Terraform offered flexibility and provider-agnostic advantages, while CloudFormation/CDK ensured deep AWS integration and granular control over AWS-specific configurations. Both tools were pivotal in ensuring that the e-commerce backend was consistently, securely, and efficiently provisioned and managed on AWS.
+
+---
 
 **CI/CD Pipeline**
 
