@@ -263,7 +263,7 @@ Security was paramount in the design and maintenance of "ShopEasy". Here's how w
 ---
 
 
-Yes, given that "ShopEasy" is an e-commerce platform, it needed to comply with Payment Card Industry Data Security Standard (PCI DSS) for handling credit card transactions. We ensured compliance by:
+Given that "ShopEasy" is an e-commerce platform, it needed to comply with Payment Card Industry Data Security Standard (PCI DSS) for handling credit card transactions. We ensured compliance by:
 
 1. **Storing Sensitive Data Securely**: Credit card details were never stored on our servers. Instead, we integrated with trusted third-party payment gateways.
    
