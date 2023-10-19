@@ -192,11 +192,6 @@ In essence, our approach to documentation for the "ShopEasy" project was not jus
 
 ---
 
-**Question**: Handovers can be tricky, especially when transitioning from a development team to an operational one. How did you manage this for "ShopEasy"?
-
-**Answer**:
-
-Handovers, especially in a complex project like "ShopEasy", indeed required careful planning and coordination. Here's how we ensured a smooth transition:
 
 1. **Stakeholder Involvement**: We involved all key stakeholders early on – from development, operations, support, and even business units. This early involvement ensured that everyone was aligned and familiar with the project.
 
@@ -235,10 +230,6 @@ Another challenge was related to user feedback on certain features. We maintaine
 
 ---
 
-**Question**: Considering that technology is ever-evolving, how did you ensure that "ShopEasy" remained technologically relevant in the long run?
-
-**Answer**:
-
 To ensure "ShopEasy" remained technologically up-to-date:
 
 1. **Continuous Learning**: Our team stayed abreast with AWS updates and emerging technologies. Any new feature or service that could benefit "ShopEasy" was evaluated and, if deemed beneficial, integrated.
@@ -253,17 +244,9 @@ By maintaining a proactive, user-centric, and iterative approach, we ensured tha
 
 ---
 
-Would you like more questions or insights into another aspect of the project or DevOps practices in general?
-
-Continuing from the **Post-deployment and Long-term Maintenance** phase, the next logical focus would be **Security, Compliance, and Performance Optimization**.
-
----
-
 **Security & Compliance**:
 
-**Question**: With cyber threats becoming increasingly sophisticated, how did you ensure the security of the "ShopEasy" platform, especially concerning user data?
 
-**Answer**:
 
 Security was paramount in the design and maintenance of "ShopEasy". Here's how we fortified our defenses:
 
@@ -279,9 +262,6 @@ Security was paramount in the design and maintenance of "ShopEasy". Here's how w
 
 ---
 
-**Question**: Were there any compliance standards that "ShopEasy" had to meet? How did you ensure adherence?
-
-**Answer**:
 
 Yes, given that "ShopEasy" is an e-commerce platform, it needed to comply with Payment Card Industry Data Security Standard (PCI DSS) for handling credit card transactions. We ensured compliance by:
 
